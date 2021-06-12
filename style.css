@@ -1,0 +1,1216 @@
+body {
+  background-color: #404040;
+  overflow-x: hidden;
+}
+
+.button {
+  position: absolute;
+  width: 135px;
+  top: 30px;
+  left: 1400px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px;
+  color: #ffffff;
+  background: #000000;
+  padding: 5px 5px 5px 5px;
+
+  text-decoration: none;
+}
+
+.container-fluid {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.container1 {
+  padding-top: 150px;
+}
+
+.container-text {
+  position: absolute;
+  width: 1105px;
+  left: 350px;
+  top: 80px;
+  text-align: center;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.container-text-zadachi {
+  position: absolute;
+  width: auto;
+  left: 89px;
+  top: 236px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+
+.container-text-function {
+  position: absolute;
+  width: auto;
+  left: 89px;
+  top: 799px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.container-text-istoria {
+  position: absolute;
+  width: auto;
+  left: 89px;
+  top: 2000px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.zagolovok {
+  position: absolute;
+  left: 700px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.text1 {
+  text-decoration: none;
+  position: absolute;
+  width: 137px;
+  height: 43px;
+  left: 300px;
+  top: 15px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.text2 {
+  text-decoration: none;
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  left: 400px;
+  top: 15px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.text3 {
+  text-decoration: none;
+  position: absolute;
+  width: 225px;
+  height: 43px;
+  left: 520px;
+  top: 15px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textRasp {
+  position: absolute;
+  width: 800px;
+  height: 86px;
+  left: 470px;
+  top: 150px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #000000;
+}
+.textRasp2 {
+  position: absolute;
+  left: 171px;
+  top: 229px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp3 {
+  position: absolute;
+  left: 1154px;
+  top: 238px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp4 {
+  position: absolute;
+  left: 273px;
+  top: 270px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp5 {
+  position: absolute;
+  left: 273px;
+  top: 305px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp6 {
+  position: absolute;
+  left: 273px;
+  top: 340px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp7 {
+  position: absolute;
+  left: 273px;
+  top: 375px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp8 {
+  position: absolute;
+  width: 450px;
+  height: 43px;
+  left: 1160px;
+  top: 270px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp9 {
+  position: absolute;
+  width: 450px;
+  height: 43px;
+  left: 1160px;
+  top: 305px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp10 {
+  position: absolute;
+  width: 450px;
+  height: 43px;
+  left: 1160px;
+  top: 340px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textRasp11 {
+  position: absolute;
+  width: 450px;
+  height: 43px;
+  left: 1160px;
+  top: 375px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textzag1 {
+  position: absolute;
+  width: 1316px;
+  left: 130px;
+  top: 500px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 57px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #131313;
+}
+
+.textpods {
+  position: absolute;
+  width: 854px;
+  height: 43px;
+  left: 361px;
+  top: 570px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textpods2 {
+  position: absolute;
+  width: 854px;
+  height: 43px;
+  left: 493px;
+  top: 620px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textpod3 {
+  position: absolute;
+  width: 981px;
+  height: 43px;
+  left: 298px;
+  top: 670px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textZag2 {
+  position: absolute;
+  width: 301px;
+  height: 86px;
+  left: 636px;
+  top: 880px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.textpolych {
+  position: absolute;
+  width: 250px;
+  height: 43px;
+  left: 170px;
+  top: 960px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych2 {
+  position: absolute;
+  width: 280px;
+  height: 43px;
+  left: 656px;
+  top: 960px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych3 {
+  position: absolute;
+  width: 121px;
+  height: 43px;
+  left: 1224px;
+  top: 960px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych4 {
+  position: absolute;
+  width: 16px;
+  height: 43px;
+  left: 272px;
+  top: 1010px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych5 {
+  position: absolute;
+  width: 21px;
+  height: 43px;
+  left: 272px;
+  top: 1045px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych6 {
+  position: absolute;
+  width: 22px;
+  height: 43px;
+  left: 272px;
+  top: 1080px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych7 {
+  position: absolute;
+  width: 22px;
+  height: 43px;
+  left: 272px;
+  top: 1110px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych8 {
+  position: absolute;
+  width: 430px;
+  height: 43px;
+  left: 660px;
+  top: 1010px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych9 {
+  position: absolute;
+  width: 430px;
+  height: 43px;
+  left: 660px;
+  top: 1045px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych10 {
+  position: absolute;
+  width: 430px;
+  height: 43px;
+  left: 660px;
+  top: 1080px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych11 {
+  position: absolute;
+  width: 430px;
+  height: 43px;
+  left: 660px;
+  top: 1110px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpolych12 {
+  position: absolute;
+  width: 158px;
+  height: 43px;
+  left: 1206px;
+  top: 1010px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textpolych13 {
+  position: absolute;
+  width: 158px;
+  height: 43px;
+  left: 1206px;
+  top: 1045px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textpolych14 {
+  position: absolute;
+  width: 158px;
+  height: 43px;
+  left: 1206px;
+  top: 1080px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textpolych15 {
+  position: absolute;
+  width: 158px;
+  height: 43px;
+  left: 1206px;
+  top: 1110px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textZag3 {
+  position: absolute;
+  width: 985px;
+  height: 57px;
+  left: 316px;
+  top: 1330px;
+  text-align: center;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+
+  color: #131313;
+}
+
+.textkakpolych {
+  position: absolute;
+  width: 749px;
+  height: 43px;
+  left: 414px;
+  top: 1450px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textkakpolych2 {
+  position: absolute;
+  width: 892px;
+  height: 43px;
+  left: 342px;
+  top: 1500px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textkakpolych3 {
+  position: absolute;
+  width: 713px;
+  height: 43px;
+  left: 432px;
+  top: 1550px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textZag4 {
+  position: absolute;
+  width: 367px;
+  height: 86px;
+  left: 605px;
+  top: 1730px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.textcdacha {
+  position: absolute;
+  width: 250px;
+  height: 43px;
+  left: 170px;
+  top: 1820px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha2 {
+  position: absolute;
+  width: 280px;
+  height: 43px;
+  left: 656px;
+  top: 1820px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha3 {
+  position: absolute;
+  width: 121px;
+  height: 43px;
+  left: 1224px;
+  top: 1820px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha4 {
+  position: absolute;
+  width: 16px;
+  height: 43px;
+  left: 272px;
+  top: 1900px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textcdacha5 {
+  position: absolute;
+  width: 16px;
+  height: 43px;
+  left: 272px;
+  top: 1935px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textcdacha6 {
+  position: absolute;
+  width: 16px;
+  height: 43px;
+  left: 272px;
+  top: 1970px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.textcdacha7 {
+  position: absolute;
+  width: 16px;
+  height: 43px;
+  left: 272px;
+  top: 2005px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha8 {
+  position: absolute;
+  width: 420px;
+  height: 43px;
+  left: 660px;
+  top: 1900px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha9 {
+  position: absolute;
+  width: 420px;
+  height: 43px;
+  left: 660px;
+  top: 1935px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha10 {
+  position: absolute;
+  width: 420px;
+  height: 43px;
+  left: 660px;
+  top: 1970px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha11 {
+  position: absolute;
+  width: 420px;
+  height: 43px;
+  left: 660px;
+  top: 2005px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha12 {
+  position: absolute;
+  width: 89px;
+  height: 43px;
+  left: 1241px;
+  top: 1900px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha13 {
+  position: absolute;
+  width: 89px;
+  height: 43px;
+  left: 1241px;
+  top: 1935px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha14 {
+  position: absolute;
+  width: 89px;
+  height: 43px;
+  left: 1241px;
+  top: 1970px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textcdacha15 {
+  position: absolute;
+  width: 89px;
+  height: 43px;
+  left: 1241px;
+  top: 2005px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textZag5 {
+  position: absolute;
+  width: 1056px;
+  height: 57px;
+  left: 260px;
+  top: 2190px;
+
+  text-align: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.textpodcdacha {
+  position: absolute;
+  width: 574px;
+  height: 43px;
+  left: 501px;
+  top: 2270px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textpodcdacha2 {
+  position: absolute;
+  width: 891px;
+  height: 43px;
+  left: 343px;
+  top: 2320px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textpodcdacha3 {
+  position: absolute;
+  width: 891px;
+  height: 43px;
+  left: 366px;
+  top: 2370px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.textpodcdacha4 {
+  position: absolute;
+  width: 891px;
+  height: 43px;
+  left: 470px;
+  top: 2420px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1920px) {
+}
+@media screen and (max-width: 1366px) {
+  .body {
+    width: 40%;
+  }
+  .button {
+    width: 40%;
+  }
+  .container-text {
+    width: 40%;
+    font-size: 25px;
+    word-break: break-all;
+  }
+  .container {
+    width: 40%;
+    word-break: break-all;
+  }
+  .container-text-zadachi {
+    width: 70%;
+    font-size: 20px;
+    word-break: break-all;
+  }
+  .container-text-function {
+    width: 80%;
+    font-size: 20px;
+    word-break: break-all;
+  }
+  .container-text-istoria {
+    top: 2100px;
+    width: 80%;
+    font-size: 20px;
+    word-break: break-all;
+  }
+  .container1 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .body {
+    width: 40%;
+  }
+  .container-text {
+    width: 40%;
+  }
+  .container {
+    width: 40%;
+  }
+  .container-text-zadachi {
+    width: 100%;
+    font-size: 17px;
+    word-break: break-all;
+  }
+  .container-text-function {
+    width: 100%;
+    font-size: 17px;
+    word-break: break-all;
+  }
+  .container-text-istoria {
+    top: 2000px;
+    width: 100%;
+    font-size: 17px;
+    word-break: break-all;
+  }
+}
+@media screen and (max-width: 768px) {
+  .body {
+    width: 50%;
+  }
+  .container-text {
+    width: 60%;
+  }
+  .container {
+    width: 50%;
+  }
+  .container-text-zadachi {
+    width: 100%;
+    font-size: 16px;
+    word-break: break-all;
+  }
+  .container-text-function {
+    width: 100%;
+    font-size: 16px;
+    word-break: break-all;
+  }
+  .container-text-istoria {
+    top: 2200px;
+    width: 100%;
+    font-size: 16px;
+    word-break: break-all;
+  }
+}
+@media screen and (max-width: 360px) {
+  .body {
+    width: 90%;
+  }
+  .container-text {
+    width: 90%;
+  }
+  .container {
+    width: 90%;
+  }
+  .container-text-zadachi {
+    width: 100%;
+    font-size: 16px;
+    word-break: break-all;
+  }
+  .container-text-function {
+    width: 100%;
+    font-size: 16px;
+    word-break: break-all;
+  }
+  .container-text-istoria {
+    top: 2300px;
+    width: 100%;
+    font-size: 16px;
+    word-break: break-all;
+  }
+}

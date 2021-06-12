@@ -1,0 +1,9 @@
+Папка с сайтом лежала в папке domains.
+
+Если не получается подключиться к базе то в файле "connection.php" в строке:
+
+$connection = mysqli_connect('localhost', 'root','root');
+
+Вместо второго root оставить пустые скобочки:
+
+$connection = mysqli_connect('localhost', 'root','');
